@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Chez-shui';
+  title = 'Chez-水';
 
   expandSet = new Set<number>();
   
@@ -15,7 +15,7 @@ export class AppComponent {
       id: 1,
       name: 'Curriculum Vitae',
       url: 'http://www.zhongshui.fr/',
-      description: "This is a resume website.",
+      description: "Website of resume.",
       opacity: "1",
       expand: false
     },
@@ -23,7 +23,7 @@ export class AppComponent {
       id: 2,
       name: 'Repayment',
       url: 'https://repayment.azurewebsites.net/',
-      description: "This is a website for understanding different loan repayment methods.",
+      description: "Website for understanding different loan repayment methods.",
       opacity: "1",
       expand: false
     },
@@ -31,7 +31,7 @@ export class AppComponent {
       id: 3,
       name: 'Photo master',
       url: 'https://colorerlavie.azurewebsites.net/',
-      description: "This is a website for managing and displaying photos.",
+      description: "Website for managing and displaying photos.",
       opacity: "1",
       expand: false
     }
