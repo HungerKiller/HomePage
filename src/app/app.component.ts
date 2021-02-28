@@ -34,6 +34,14 @@ export class AppComponent {
       description: "Website for managing and displaying photos.",
       opacity: "1",
       expand: false
+    },
+    {
+      id: 4,
+      name: 'InFRmation (In progress...)',
+      url: 'https://infrmation.azurewebsites.net/',
+      description: "Website for searching information of France, such as administrative division, population etc.",
+      opacity: "1",
+      expand: false
     }
   ];
 
